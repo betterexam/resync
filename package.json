@@ -1,0 +1,24 @@
+{
+  "name": "@betterexam/resync",
+  "version": "0.0.2",
+  "description": "A CLI tool for syncing directories with support for publishing and initialization.",
+  "main": "index.js",
+  "bin": {
+    "resync": "index.js"
+  },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "colorette": "^2.0.20",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.1.0",
+    "ignore": "^5.2.1"
+  },
+  "author": "Better Exam",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
